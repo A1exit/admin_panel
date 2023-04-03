@@ -1,0 +1,12 @@
+[flake8]
+
+exclude =
+    tests/,
+    */migrations/,
+    .venv/,
+    env/,
+    */__init__.py,
+    */manage.py
+
+per-file-ignores =
+    *movies_admin/config/settings.py: E501
